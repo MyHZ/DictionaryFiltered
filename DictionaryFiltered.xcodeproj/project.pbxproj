@@ -61,7 +61,7 @@
 		CE5EC63120804DC80025DFB6 /* DictionaryFiltered */ = {
 			isa = PBXGroup;
 			children = (
-				CE5EC64820804DE60025DFB6 /* DictionaryFiltered */,
+				CE5EC64820804DE60025DFB6 /* DictionaryFilteredClasses */,
 				CE5EC63220804DC80025DFB6 /* AppDelegate.h */,
 				CE5EC63320804DC80025DFB6 /* AppDelegate.m */,
 				CE5EC63520804DC80025DFB6 /* ViewController.h */,
@@ -75,13 +75,13 @@
 			path = DictionaryFiltered;
 			sourceTree = "<group>";
 		};
-		CE5EC64820804DE60025DFB6 /* DictionaryFiltered */ = {
+		CE5EC64820804DE60025DFB6 /* DictionaryFilteredClasses */ = {
 			isa = PBXGroup;
 			children = (
 				CE5EC64920804E080025DFB6 /* NSDictionary+ParaProduct.h */,
 				CE5EC64A20804E080025DFB6 /* NSDictionary+ParaProduct.m */,
 			);
-			path = DictionaryFiltered;
+			path = DictionaryFilteredClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
