@@ -13,6 +13,7 @@
 		CE5EC63C20804DC90025DFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC63B20804DC90025DFB6 /* Assets.xcassets */; };
 		CE5EC63F20804DC90025DFB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC63D20804DC90025DFB6 /* LaunchScreen.storyboard */; };
 		CE5EC64220804DC90025DFB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC64120804DC90025DFB6 /* main.m */; };
+		CE5EC64B20804E080025DFB6 /* NSDictionary+ParaProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC64A20804E080025DFB6 /* NSDictionary+ParaProduct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CE5EC63E20804DC90025DFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5EC64020804DC90025DFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5EC64120804DC90025DFB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5EC64920804E080025DFB6 /* NSDictionary+ParaProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ParaProduct.h"; sourceTree = "<group>"; };
+		CE5EC64A20804E080025DFB6 /* NSDictionary+ParaProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ParaProduct.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		CE5EC63120804DC80025DFB6 /* DictionaryFiltered */ = {
 			isa = PBXGroup;
 			children = (
+				CE5EC64820804DE60025DFB6 /* DictionaryFiltered */,
 				CE5EC63220804DC80025DFB6 /* AppDelegate.h */,
 				CE5EC63320804DC80025DFB6 /* AppDelegate.m */,
 				CE5EC63520804DC80025DFB6 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				CE5EC63D20804DC90025DFB6 /* LaunchScreen.storyboard */,
 				CE5EC64020804DC90025DFB6 /* Info.plist */,
 				CE5EC64120804DC90025DFB6 /* main.m */,
+			);
+			path = DictionaryFiltered;
+			sourceTree = "<group>";
+		};
+		CE5EC64820804DE60025DFB6 /* DictionaryFiltered */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EC64920804E080025DFB6 /* NSDictionary+ParaProduct.h */,
+				CE5EC64A20804E080025DFB6 /* NSDictionary+ParaProduct.m */,
 			);
 			path = DictionaryFiltered;
 			sourceTree = "<group>";
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5EC64B20804E080025DFB6 /* NSDictionary+ParaProduct.m in Sources */,
 				CE5EC63720804DC80025DFB6 /* ViewController.m in Sources */,
 				CE5EC64220804DC90025DFB6 /* main.m in Sources */,
 				CE5EC63420804DC80025DFB6 /* AppDelegate.m in Sources */,
