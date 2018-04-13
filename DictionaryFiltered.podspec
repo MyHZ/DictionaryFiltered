@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DictionaryFiltered"
-  s.version      = "1.0.0"
+  s.version      = "0.0.2"
   s.summary      = "对系统快捷生成字典进行修改."
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,8 +63,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/DictionaryFiltered.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/MyHZ/DictionaryFiltered.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DictionaryFiltered", "DictionaryFiltered/DictionaryFiltered/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "DictionaryFiltered", "DictionaryFiltered/DictionaryFiltered/DictionaryFilteredClasses/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "DictionaryFiltered/DictionaryFiltered/*.h"
 
