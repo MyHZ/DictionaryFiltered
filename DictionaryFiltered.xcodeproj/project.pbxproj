@@ -42,10 +42,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDF7D0D22080ECB300B0C4C7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EC63220804DC80025DFB6 /* AppDelegate.h */,
+				CE5EC63320804DC80025DFB6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BDF7D0D32080ECD100B0C4C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EC63D20804DC90025DFB6 /* LaunchScreen.storyboard */,
+				CE5EC63520804DC80025DFB6 /* ViewController.h */,
+				CE5EC63620804DC80025DFB6 /* ViewController.m */,
+				CE5EC63820804DC80025DFB6 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BDF7D0D42080ECDE00B0C4C7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EC63B20804DC90025DFB6 /* Assets.xcassets */,
+				CE5EC64020804DC90025DFB6 /* Info.plist */,
+				CE5EC64120804DC90025DFB6 /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		CE5EC62620804DC80025DFB6 = {
 			isa = PBXGroup;
 			children = (
-				CE5EC64820804DE60025DFB6 /* DictionaryFilteredClasses */,
+				BDF7D0D42080ECDE00B0C4C7 /* Source */,
+				BDF7D0D32080ECD100B0C4C7 /* ViewController */,
+				BDF7D0D22080ECB300B0C4C7 /* AppDelegate */,
 				CE5EC63120804DC80025DFB6 /* DictionaryFiltered */,
 				CE5EC63020804DC80025DFB6 /* Products */,
 			);
@@ -62,26 +94,10 @@
 		CE5EC63120804DC80025DFB6 /* DictionaryFiltered */ = {
 			isa = PBXGroup;
 			children = (
-				CE5EC63220804DC80025DFB6 /* AppDelegate.h */,
-				CE5EC63320804DC80025DFB6 /* AppDelegate.m */,
-				CE5EC63520804DC80025DFB6 /* ViewController.h */,
-				CE5EC63620804DC80025DFB6 /* ViewController.m */,
-				CE5EC63820804DC80025DFB6 /* Main.storyboard */,
-				CE5EC63B20804DC90025DFB6 /* Assets.xcassets */,
-				CE5EC63D20804DC90025DFB6 /* LaunchScreen.storyboard */,
-				CE5EC64020804DC90025DFB6 /* Info.plist */,
-				CE5EC64120804DC90025DFB6 /* main.m */,
-			);
-			path = DictionaryFiltered;
-			sourceTree = "<group>";
-		};
-		CE5EC64820804DE60025DFB6 /* DictionaryFilteredClasses */ = {
-			isa = PBXGroup;
-			children = (
 				CE5EC64920804E080025DFB6 /* NSDictionary+ParaProduct.h */,
 				CE5EC64A20804E080025DFB6 /* NSDictionary+ParaProduct.m */,
 			);
-			path = DictionaryFilteredClasses;
+			path = DictionaryFiltered;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = DictionaryFiltered/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = DictionaryFiltered/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
