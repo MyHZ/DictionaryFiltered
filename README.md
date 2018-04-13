@@ -9,9 +9,8 @@ https://github.com/MyHZ/DictionaryFilteredExample
 https://github.com/MyHZ/DictionaryFiltered
 
 <h2>CocoaPods支持：</h2>
-```
+
 pod 'DictionaryFiltered'
-```
 
 <h2>简书地址：</h2>
  https://www.jianshu.com/p/4682af04703b
