@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DictionaryFiltered"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "对系统快捷生成字典进行修改."
 
   # This description is used to generate tags and improve search results.
