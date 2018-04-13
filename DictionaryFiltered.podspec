@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                   根据参数生成字典（如果值为@""则不添加）
                    DESC
 
-  s.homepage     = "https://github.com/MyHZ/DictionaryFiltered.git"
+  s.homepage     = "https://github.com/MyHZ/DictionaryFiltered"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "huangzhen" => "752818915@qq.com" }
   s.social_media_url   = "https://www.jianshu.com/u/dc87a43e2c18"
