@@ -18,18 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *sss1 = @"生于成";
-    NSString *sss2 = @"";
-    NSString *sss3 = @"333";
-    NSString *sss4 = @"";
-    NSString *sss5 = @"让发";
-    NSNumber *sss6 = @(333);
-    NSString *sss9 = @"";
-    NSString *sss7 = nil;
-    NSString *sss8 = @"你好是 ";
+    NSString *para1 = @"生于成";
+    NSString *para2 = @"";
+    NSString *para3 = @"333";
+    NSString *para4 = @"";
+    NSString *para5 = @"让发";
+    NSNumber *para6 = @(333);
+    NSString *para9 = @"";
+    NSString *para7 = nil;
+    NSString *para8 = @"你好是 ";
     
-    NSDictionary *dic = FilteredDictionaryOfVariableBindings(sss1,sss2,sss3,sss4,sss5,sss6,sss7,sss8,sss9,nil);
-    NSLog(@"%@",dic);
+    NSDictionary *para = FilteredDictionaryOfVariableBindings(para1,para2,para3,para4,para5,para6,para7,para8,para9,nil);
+    NSLog(@"%@",para);
     
 }
 
